@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRILLI</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preload" as="image" href="./images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./images/hero-slider-3.jpg"> -->
+</head>
+<body>
+    
+    <div class="preloader">
+            <div class="spinner"></div>
+            <h2>GRILLI</h2>
+    </div>
+    
+    <header>
+        <div class="p-2 d-flex head-links justify-content-lg-between justify-content-center position-absolute z-2 top-0 bg-transparent border-bottom w-100">
+            <div class="d-flex align-items-center">
+                <h6 style="font-size: 13px;">
+                     <i class="m-lg-2 fas fa-map-marker-alt"aria-hidden="true"></i> Restaurant St, Delicious City, London 9578, UK
+                </h6>
+                <div class="shape mx-4 mb-2"></div>
+                <h6 style="font-size: 13px;"> 
+                    <i class="m-lg-2 far fa-clock" aria-hidden="true"></i> Daily : 8.00 am to 10.00 pm
+                </h6>
+            </div>
+            <div class="d-flex align-items-center header-info">
+                <h6 style="font-size: 13px;">
+                     <i class="m-lg-2 fas fa-phone-alt" aria-hidden="true"></i> +1 123 456 7890
+                </h6>
+                <div class="shape mx-4 mb-2"></div>
+                <h6 style="font-size: 13px;"> 
+                    <i class="m-lg-2 far fa-envelope" aria-hidden="true"></i> booking@restaurant.com
+                </h6>
+            </div>
+            
+        </div>
+
+        <nav class="navbar navbar-expand-lg position-absolute z-2  w-100 py-4" style="top: 50px;">
+            <div class="container-fluid">
+                <a class="navbar-brand flex-lg-grow-0 flex-grow-1" href="index.html" aria-label="Home">
+                    <img src="images/logo.svg" width="150" alt="logo">
+                </a>
+                <div class="menu z-3">
+                    <div class="position-relative">
+                        <div class="close-menu d-none">
+                            <i class="far fa-times-circle" ></i>
+                        </div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="menu-logo text-center d-none">
+                                <a href="index.html">
+                                    <img src="images/logo.svg" width="150" alt="logo">
+                                </a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active m-2 text-white fw-bold " aria-current="page" href="#home">HOME</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active m-2 text-white fw-bold " aria-current="page" href="#story">ABOUT US</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active m-2 text-white fw-bold " aria-current="page" href="#menu">MENUS</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active m-2 text-white fw-bold " aria-current="page" href="#contact">CONTACT US</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active m-2 text-white fw-bold " aria-current="page" href="#event">BLOG</a>
+                            </li>
+                            
+                            <hr>
+                            <li class="menu-text d-none text-center">
+                                <div>
+                                    <h3>Visit Us</h3>
+                                    <h6>Restaurant St, Delicious City, <br> London 9578, UK</h6>
+                                    <h6>Daily : 8.00 am to 10.00 pm</h6>
+                                    <h6>booking@restaurant.com</h6>
+                                    <h4 style="color: var(--primary); margin-top: 20px;">+1 123 456 7890</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="btn header-btn" >
+                    <div class="overlay1">
+                        FIND A TABLE
+                    </div>
+                    <div class="overlay2">
+                        FIND A TABLE
+                    </div>
+                   
+                </a>
+                <i class="fas fa-bars mx-3 fa-2x open-menu d-none"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+
+        <div class="hero-icon">
+            
+            <img src="images/hero-icon.png" width="40" alt="Food Dish">
+            <h6>Book A <br> Table</h6>
+        </div>
+
+        <div class="slider-btns">
+            <button aria-label="next slide image" class="slider-btn next-slide position-absolute top-50 z-1" style="right: 20px;">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <button aria-label="previous slide image" class="slider-btn prev-slide position-absolute top-50 z-1" style="left: 20px;">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+
+        <div class="bg active" style="background-image: url(images/hero-slider-1.jpg);">
+            <div class="container-fluid s ">
+                <div class="bg-container">
+                    <div class="heading">
+                        <h6>Tradational & Hygine</h6>
+                        <img src="images/separator.svg" width="80px" alt="" aria-hidden="true" >
+                    </div>
+                    <h1>For the love of 
+                    delicious food</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a class="btn btn2 ">
+                        <div class="overlay1" style="color: var(--primary);">
+                            VIEW OUR MENU
+                        </div>
+                        <div class="overlay2 text-black ">
+                            VIEW OUR MENU
+                        </div>
+                    
+                    </a>
+                </div>
+            </div>
+            </div>
+        <div class="bg" style="background-image: url(images/hero-slider-2.jpg);">
+            <div class="container-fluid ">
+                <div class="bg-container">
+                    <div class="heading">
+                        <h6>delightful experience</h6>
+                        <img src="images/separator.svg" width="80px" alt="" aria-hidden="true">
+                    </div>
+                    <h1>Flavors Inspired by 
+                    the Seasons</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a class="btn btn2 ">
+                        <div class="overlay1" style="color: var(--primary);">
+                            VIEW OUR MENU
+                        </div>
+                        <div class="overlay2 text-black ">
+                            VIEW OUR MENU
+                        </div>
+                    
+                    </a>
+                </div>
+            </div>
+            </div>
+        <div class="bg" style="background-image: url(images/hero-slider-3.jpg);">
+            <div class="container-fluid ">
+                <div class="bg-container">
+                    <div class="heading">
+                        <h6>amazing & delicious</h6>
+                        <img src="images/separator.svg" width="80px" aria-hidden="true" alt="">
+                    </div>
+                    <h1>Where every flavor 
+                     tells a story</h1>
+                    <p>Come with family & feel the joy of mouthwatering food</p>
+                    <a class="btn btn2">
+                        <div class="overlay1" style="color: var(--primary);">
+                            VIEW OUR MENU
+                        </div>
+                        <div class="overlay2 text-black ">
+                            VIEW OUR MENU
+                        </div>
+                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <section id="services" class="position-relative">
+        <div class="bg-icons">
+            <img src="images/shape-2.png" loading="lazy" class="position-absolute top-0 end-0 z-0" aria-hidden="true" alt="">
+            <img src="images/shape-1.png" loading="lazy" class="position-absolute bottom-0 start-0" aria-hidden="true" alt="">
+            
+        </div>
+        <div class="container overflow-hidden py-5 position-relative z-1">
+            <div class="heading ">
+                <h6>FALVORS FOR ROYLATY</h6>
+                <img src="images/separator.svg" loading="lazy" width="80px" aria-hidden="true" alt="">
+                <h2>We Offer Top Notch</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard
+                    dummy text ever.</p>
+                </div>
+                <div class="row gy-5  justify-content-center gx-0 gx-md-5">
+                    
+                <div class="col-md-6 col-lg-4 text-center box">
+                    <div class="position-relative z-1 ">
+                        <img src="images/img-pattern.svg" loading="lazy" class="img-pattern" aria-hidden="true" alt="">
+                        <div class="overflow-hidden position-relative">
+                            <div class="serv-img">
+                                <img src="images/service-1.jpg" class="img-fluid "  loading="lazy" alt="Desserts" >
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="margin-top: 60px; font-family: var(--forum);">Desserts</h3>
+                    <h6 style="color: var(--primary); font-size: 13px; font-weight: bold; letter-spacing: 1px;">VIEW MENU</h6>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center box mid">
+                    <div class="position-relative z-1 ">
+                        <img src="images/img-pattern.svg" loading="lazy" class="img-pattern" aria-hidden="true" alt="">
+                        <div class="overflow-hidden position-relative">
+                            <div class="serv-img">
+                                <img src="images/service-2.jpg" class="img-fluid  "style="aspect-ratio: 50/59;" loading="lazy" alt="Appetizers" >
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="margin-top: 60px; font-family: var(--forum);">Appetizers</h3>
+                    <h6 style="color: var(--primary); font-size: 13px; font-weight: bold; letter-spacing: 1px;">VIEW MENU</h6>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center box">
+                    <div class="position-relative z-1 ">
+                        <img src="images/img-pattern.svg" loading="lazy" class="img-pattern" aria-hidden="true" alt="">
+                        <div class="overflow-hidden position-relative">
+                            <div class="serv-img">
+                                <img src="images/service-3.jpg" class="img-fluid w-100" loading="lazy" style="aspect-ratio: 50/59;" alt="Drinks">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="margin-top: 60px; font-family: var(--forum);">Drinks</h3>
+                    <h6 style="color: var(--primary); font-size: 13px; font-weight: bold; letter-spacing: 1px;">VIEW MENU</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="overflow-hidden position-relative">
+        <img src="images/shape-3.png" class="position-absolute bottom-0 start-0 img-shape" alt="">   
+        <div class="container-lg  ">
+            <div class="row gy-5 my-3 mb-5  justify-content-between align-items-center">
+                <div class="col-md-6  col-xl-5 text-center">
+                    <div class="heading">  
+                        <h6>OUR STORY</h6>
+                        <img src="images/separator.svg" loading="lazy" width="80px" alt="">
+                        <h2>Every Flavor Tells A Story</h2> 
+                    </div>
+                    <p style="line-height: 1.5; max-width: 450px; margin: auto;" class="fs-6">
+                        Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard
+                        dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book It
+                        has survived not only five centuries, but also the leap into.
+                    </p>
+                    <h6 class="fw-bold mt-4" style="font-size: 15px;">
+                        Book Through Phone
+                    </h6>
+                    <h5 style="color: var(--primary);">+1 123 456 7890</h5>
+                    
+                    <a class="btn btn2 mt-2 ">
+                        <div class="overlay1" style="color: var(--primary);">
+                            VIEW OUR MENU
+                        </div>
+                        <div class="overlay2 text-black ">
+                            VIEW OUR MENU
+                        </div>
+                    
+                    </a>
+                </div>
+                <div class="col-md-6  col-xl-5">
+                    <div class="position-relative m-auto " style="width: fit-content;">
+                        <div class="img-badge" >
+                            <img src="images/badge-2.png" loading="lazy"  class="position-absolute" alt="badge">
+                            <img src="images/badge-2-bg.png"  loading="lazy" class="position-absolute" alt="badge">
+                        </div>
+                        <img src="images/about-banner.jpg" loading="lazy"  class=" img-fluid "  alt="restaurant">
+                        <img src="images/about-abs-image.jpg"  loading="lazy" class="position-absolute start-0 bottom-0 about-img" width="250" alt="Chief">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dish" class="p-0 mt-5 position-relative">
+        <div class="bg-icons">
+            <img src="images/shape-4.png" loading="lazy" class="position-absolute top-0 end-0 z-0" alt="">
+            <img src="images/shape-9.png" loading="lazy" class="position-absolute bottom-0 end-0 img-shape  " style="transform: translateY(50%);" alt="">
+        
+        </div>
+        <div class="container-fluid px-lg-0">
+            <div class="row align-items-center gx-0">
+                <div class="col-lg-6 p-0 py-5 p-md-5 p-lg-0 order-lg-first order-last">
+                    <img src="images/special-dish-banner.jpg" loading="lazy" class="img-fluid dish-img w-100" alt="Speical Dish">
+                </div>
+                <div class="col-lg-6 ps-lg-5 pt-5 order-lg-last   text-center text-lg-start">
+                    <div class="heading text-center text-lg-start position-relative z-1">
+                        <h6>SPECIAL DISH</h6>
+                        <img src="images/separator.svg" loading="lazy" width="80px" alt="">
+                        <h2>Lobster Tortellini</h2>
+                        <p class="fs-6 m-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam autem odio expedita. Quo suscipit ea reiciendis asperiores nihil voluptas mollitia ipsam laboriosam molestias, eveniet quae a et aperiam voluptates quidem?</p>
+                    </div>
+                    <div class="d-flex gap-2 my-4 justify-content-lg-start justify-content-center align-items-center">
+                        <h6 class="  text-secondary fw-bold me-3">$40.00</h6>
+                        <h4 class="" style="color: var(--primary);">$20.00</h4>
+                    </div>
+                    <a class="btn btn2 mt-2 ">
+                        <div class="overlay1" style="color: var(--primary);">
+                            VIEW ALL MENU
+                        </div>
+                        <div class="overlay2 text-black ">
+                            VIEW ALL MENU
+                        </div>
+                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="position-relative">
+        <div class="bg-icons">
+            <!-- <img src="images/shape-3.png" loading="lazy"  class="position-absolute top-0 start-0 z-0" alt=""> -->
+            <img src="images/shape-6.png" loading="lazy" class="position-absolute bottom-0 end-0 z-0" alt="">        
+        </div>
+        <div class="container-lg position-relative z-1">
+            <div class="heading">
+                <h6>SPECIAL SELECTION</h6>
+                <img src="images/separator.svg" loading="lazy" width="80px" alt="">
+                <h2>Delicious Menu</h2>
+            </div>
+            <div class="row  my-5 gx-md-4 gx-0">
+                <div class="col-md-6 col-lg-5 d-flex flex-column  gap-3 ">
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-1.png" loading="lazy" alt="Greek Salad">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Greek Salad</h5>
+                                <h6 style="background-color: var(--primary); font-family: var(--forum);" class=" px-2 text-black mx-2">SEASONAL</h6>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$25.00</h4>
+                            </div>
+                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-2.png" loading="lazy" alt="Lasagne">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Lasagne</h5>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$10.00</h4>
+                            </div>
+                            <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-3.png" loading="lazy" alt="Butternut Pumpkin">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Butternut Pumpkin</h5>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$35.00</h4>
+                            </div>
+                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2  vertical-line p-0">
+                    <p></p>
+                </div>
+
+                <div class="col-md-6 col-lg-5 d-flex flex-column gap-3">
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-4.png" loading="lazy" alt="Olivas Rellenas">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Olivas Rellenas</h5>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$20.00</h4>
+                            </div>
+                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-5.png" loading="lazy" alt="Tokusen Wagyu">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Tokusen Wagyu</h5>
+                                <h6 style="background-color: var(--primary); font-family: var(--forum);" class=" px-2 text-black mx-2">
+                                    NEW</h6>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$25.00</h4>
+                            </div>
+                            <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 menu-sep align-items-center py-3">
+                        <img src="images/menu-6.png" loading="lazy" alt="Opu Fish">
+                        <div>
+                            <div class="d-flex gap-2  align-items-baseline justify-content-between">
+                                <h5 class="flex-grow-1 flex-lg-grow-0">Opu Fish</h5>
+                                <div class="lines flex-grow-1"></div>
+                                <h4 style="font-family: var(--forum); color: var(--primary);">$30.00</h4>
+                            </div>
+                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-5">
+                <h6>During winter daily from <span style="color: var(--primary);">7:00 pm</span> to <span style="color: var(--primary);">9:00 pm</span></h6>
+                <a class="btn btn2 mt-2 ">
+                    <div class="overlay1" style="color: var(--primary);">
+                        VIEW ALL MENU
+                    </div>
+                    <div class="overlay2 text-black ">
+                        VIEW ALL MENU
+                    </div>
+                
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="test">
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide text-center" data-bs-ride="carousel">
+                <div class="carousel-indicators" style="bottom: -80px;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" class=" carousel-btn" ></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3" class=" carousel-btn"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <h3 class="carousel-text ">&quot;I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.&quot;</h3>
+                       <img src="images/testi-avatar-1.jpg" class="rounded-circle mt-4 mb-2 " alt="testimonial 1">
+                       <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">SAM JOHNSON</h6>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="carousel-text ">&quot;I wanted to thank you for inviting me down for that amazing dinner the other night. The
+                            food was extraordinary.&quot;</h2>
+                        <img src="images/testi-avatar-2.jpg" width="100" class="rounded-circle mt-4 mb-2 " alt="testimonial 2">
+                        <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">JOHN DOE</h6>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="carousel-text ">&quot;I wanted to thank you for inviting me down for that amazing dinner the other night. The
+                            food was extraordinary.&quot;</h2>
+                        <img src="images/testi-avatar-3.jpg" width="100" class="rounded-circle mt-4 mb-2 " alt="testimonial 3">
+                        <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">JAKE SMITH</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container" style="transform: translateY(-300px);">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 p-5 pb-0 text-center" style="background-color:  hsla(40, 12%, 5%, 1);">
+                    <h2 style="font-family: var(--forum); font-size: 45px;">Online Reservation</h2>
+                    <h6>For booking, call <span style="color: var(--primary);">+1 123 456 7890</span>
+                        or fill out the form
+                    </h6>
+                    <form>
+                        <div class="row my-5 gy-3 gx-3">
+                            <div class="col-lg-6">
+                                <input type="text" aria-label="Your Name" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="number" aria-label="Phone number" placeholder="Phone Number">
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="number" aria-label="Number Of People" placeholder="# Of People">
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="date" aria-label="Date" placeholder="Date">
+                            </div>
+                            <div class="col-lg-4">
+                                <select aria-label="Select Time">
+                                    <option>08:00 am</option>
+                                    <option>09:00 am</option>
+                                    <option>10:00 am</option>
+                                    <option>11:00 am</option>
+                                    <option>12:00 am</option>
+                                    <option>01:00 pm</option>
+                                    <option>02:00 pm</option>
+                                    <option>03:00 pm</option>
+                                    <option>04:00 pm</option>
+                                    <option>05:00 pm</option>
+                                    <option>06:00 pm</option>
+                                    <option>07:00 pm</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea placeholder="Your Message" aria-label="Your Message" style="height: 150px;"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <a class="btn mt-2 w-100 d-flex justify-content-center">
+                                    <div class="overlay1">
+                                        BOOK TABLE
+                                    </div>
+                                    <div class="overlay2">
+                                        BOOK TABLE
+                                    </div>
+                                
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 pt-5 pb-0 text-center" style="background-color:  hsla(40, 12%, 5%, 1); background-image: url(images/form-pattern.png); ">
+                    <h2 style="font-family: var(--forum);  font-size: 45px;" class="mb-5">Contact Us</h2>
+                    <h6>Booking request</h6>
+                    <h4 style="color: var(--primary); margin-top: 20px;">+1 123 456 7890</h4>
+                    <div class="shape my-2"></div>
+                    <div class="mb-4">
+                        <h6>Location</h6>
+                        <p>Restaurant St, Delicious City <br>
+                        London 9578, UK</p>
+                    </div>
+                    <div class="mb-4">
+                        <h6>Lunch Time</h6>
+                        <p>Monday to Sunday <br>
+                        11.00 am - 2.30pm</p>
+                    </div>
+                    <div class="mb-4">
+                        <h6>Dinner Time</h6>
+                        <p>Monday to Sunday <br>
+                        05.00 pm - 10.00pm</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="why" class="position-relative">
+        <div class="bg-icons">
+            <img src="images/shape-7.png" loading="lazy"  class="img-shape position-absolute  end-0 z-0" style="top: -30px;" alt="">
+            <img src="images/shape-8.png" loading="lazy" class="img-shape position-absolute top-0 start-0 z-0" alt="">
+        </div>
+        <div class="container">
+            <div class="heading">
+                <h6>WHY CHOOSE US</h6>
+                <img src="images/separator.svg" loading="lazy" width="80px" alt="">
+                <h2>Our Strength</h2>
+            </div>
+            <div class="row gy-5 my-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-3 box1 ">
+                        <img src="images/features-icon-1.png" class="strength-icon" alt="Hygienic Food">
+                        <h4 style="font-family: var(--forum);" class="mt-3">Hygienic Food</h4>
+                        <p>Lorem Ipsum is simply dummy printing and typesetting.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-3 box2 ">
+                        <img src="images/features-icon-2.png" class="strength-icon" alt="Fresh Environment">
+                        <h4 style="font-family: var(--forum);" class="mt-3">Fresh Environment</h4>
+                        <p>Lorem Ipsum is simply dummy printing and typesetting.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-3 box1 ">
+                        <img src="images/features-icon-3.png" class="strength-icon" alt="Skilled Chefs">
+                        <h4 style="font-family: var(--forum);" class="mt-3">Skilled Chefs</h4>
+                        <p>Lorem Ipsum is simply dummy printing and typesetting.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-3 box2 ">
+                        <img src="images/features-icon-4.png" class="strength-icon" alt="Events And Parties">
+                        <h4 style="font-family: var(--forum);" class="mt-3">Events And Parties</h4>
+                        <p>Lorem Ipsum is simply dummy printing and typesetting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="event">
+        <div class="container">
+            <div class="heading">
+                <h6>RECENT UPDATES</h6>
+                <img src="images/separator.svg" loading="lazy" width="80px" alt="">
+                <h2>Upcoming Events</h2>
+            </div>
+            <div class="row gy-5 py-5 justify-content-center" >
+                <div class="col-md-6 col-lg-4">
+                    <div class=" box position-relative overflow-hidden">
+                        <img src="images/event-1.jpg" class="img-fluid w-100" loading="lazy" alt="event 1">
+                        <h6 style="color: var(--primary); top: 15px; left: 15px; font-size: 14px;" class="position-absolute bg-black p-1 px-2">10/2/2024</h6>
+                        <div class="position-absolute text-center w-100 p-3 bg-black bg-opacity-50 bottom-0">
+                            <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">FOOD, FLAVOURS</h6>
+                            <h4 style="font-family: var(--forum);">Flavour so good you'll try to eat with your eyes.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" box position-relative overflow-hidden">
+                        <img src="images/event-2.jpg" class="img-fluid w-100" loading="lazy" alt="event 2">
+                        <h6 style="color: var(--primary); top: 15px; left: 15px; font-size: 14px;" class="position-absolute bg-black p-1 px-2">10/2/2024</h6>
+                        <div class="position-absolute text-center w-100 p-3 bg-black bg-opacity-50 bottom-0">
+                            <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">HEALTHY FOOD</h6>
+                            <h4 style="font-family: var(--forum);">Flavour so good you'll try to eat with your eyes.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" box position-relative overflow-hidden">
+                        <img src="images/event-3.jpg" class="img-fluid w-100" loading="lazy" alt="event 3">
+                        <h6 style="color: var(--primary); top: 15px; left: 15px; font-size: 14px;" class="position-absolute bg-black p-1 px-2">10/2/2024</h6>
+                        <div class="position-absolute text-center w-100 p-3 bg-black bg-opacity-50 bottom-0">
+                            <h6 style="color: var(--primary); font-weight: bold; letter-spacing: 1px; font-size: 13px;">RECIPIES</h6>
+                            <h4 style="font-family: var(--forum);">Flavour so good you'll try to eat with your eyes.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-5">
+                <a class="btn btn2 mt-2 ">
+                    <div class="overlay1" style="color: var(--primary);">
+                        VIEW OUR BLOG
+                    </div>
+                    <div class="overlay2 text-black">
+                        VIEW OUR BLOG
+                    </div>
+                
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row gy-5  justify-content-evenly align-items-center">
+                <div class="col-lg-2 text-center">
+                    <ul class="p-0" >
+                        <li class=" p-1" >
+                            <a class="nav-link active pb-2 m-2 text-white fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">HOME</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active pb-2 m-2 text-white fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#story">ABOUT US</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active pb-2 m-2 text-white fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#menu">MENU</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active pb-2 m-2 text-white fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#contact">CONTACT US</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active pb-2 m-2 text-white fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#event">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 footer-form text-center position-relative">
+                    <img src="images/footer-form-pattern.svg" class="position-absolute top-0 start-0"  height="100%" alt="">
+                    <img src="images/footer-form-pattern.svg" class="position-absolute top-0 end-0"  height="100%" alt="">
+                    <img src="images/logo.svg" class="mb-5" loading="lazy" width="150" alt="">
+                    <p>Restaurant St, Delicious City, London 9578, UK</p>
+                    <p>booking@grilli.com</p>
+                    <p>Booking Request : +88-123-123456</p>
+                    <p>Open : 09:00 am - 01:00 pm</p>
+                    <div class="shape"></div>
+                    <h2 style="font-family: var(--forum);" class="my-2">Get News & Offers</h2>
+
+                    <div class="d-flex my-3">
+                        <input type="text" style="outline: none;" placeholder="Your Email" >
+                        <a class="btn d-flex justify-content-center" >
+                            <div class="overlay1">
+                                SUBSCRIBE
+                            </div>
+                            <div class="overlay2">
+                                SUBSCRIBE
+                            </div>
+                        
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <ul class="p-0" >
+                        <li class=" p-1" >
+                            <a class="nav-link active m-2 text-white pb-2 fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">FACEBOOK</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active m-2 text-white pb-2 fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">INSTAGRAM</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active m-2 text-white pb-2 fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">TWITTER</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active m-2 text-white pb-2 fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">YOUTUBE</a>
+                        </li>
+                        <li class=" p-1" >
+                            <a class="nav-link active m-2 text-white pb-2 fw-bold" style="letter-spacing: 1px;" aria-current="page"  href="#home">PINTREST</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
